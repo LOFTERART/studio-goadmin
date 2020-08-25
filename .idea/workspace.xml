@@ -5,14 +5,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/READMEN.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pg.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.full.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.full.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="fix: init">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,30 +107,30 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="544" y="89" key="EnvironmentVariablesDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354242457" />
-    <state width="1179" height="176" key="GridCell.Tab.0.bottom" timestamp="1598354839392">
+    <state width="1179" height="176" key="GridCell.Tab.0.bottom" timestamp="1598354906771">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598354839392" />
-    <state width="1179" height="176" key="GridCell.Tab.0.center" timestamp="1598354839392">
+    <state width="1179" height="176" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598354906771" />
+    <state width="1179" height="176" key="GridCell.Tab.0.center" timestamp="1598354906770">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598354839392" />
-    <state width="1179" height="176" key="GridCell.Tab.0.left" timestamp="1598354839391">
+    <state width="1179" height="176" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598354906770" />
+    <state width="1179" height="176" key="GridCell.Tab.0.left" timestamp="1598354906769">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598354839391" />
-    <state width="1179" height="176" key="GridCell.Tab.0.right" timestamp="1598354839392">
+    <state width="1179" height="176" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598354906769" />
+    <state width="1179" height="176" key="GridCell.Tab.0.right" timestamp="1598354906770">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598354839392" />
+    <state width="1179" height="176" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598354906770" />
     <state x="176" y="27" key="SettingsEditor" timestamp="1598353646524">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="176" y="27" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1598353646524" />
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598353579846">
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598354929576">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598353579846" />
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598354929576" />
     <state x="480" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598353437674">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
