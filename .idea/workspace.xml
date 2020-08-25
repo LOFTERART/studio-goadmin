@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/READMEN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pg.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.full.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.full.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +42,28 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
+  <component name="RunManager">
+    <configuration name="go build go-admin" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <parameters value="server -c config/settings.yml -p 8000 -m dev" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -74,7 +87,7 @@
     <integration-enabled>true</integration-enabled>
     <environment>
       <map>
-        <entry key="GOPROXY" value="https://mirrors.aliyun.com/goproxy/" />
+        <entry key="GOPROXY" value="https://goproxy.cn" />
       </map>
     </environment>
   </component>
@@ -83,18 +96,42 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="450" y="331" key="#GOROOT/0.23.1280.741@0.23.1280.741" timestamp="1598353096143" />
-    <state x="544" y="255" key="EnvironmentVariablesDialog" timestamp="1598353520696">
+    <state x="342" y="187" key="#Log_Highlighting_(ideolog)" timestamp="1598354189066">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="544" y="255" key="EnvironmentVariablesDialog/0.23.1280.741@0.23.1280.741" timestamp="1598353520696" />
-    <state x="176" y="27" key="SettingsEditor" timestamp="1598353526076">
+    <state x="342" y="187" key="#Log_Highlighting_(ideolog)/0.23.1280.741@0.23.1280.741" timestamp="1598354189066" />
+    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598354871943">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="176" y="27" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1598353526076" />
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598353364510">
+    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354871943" />
+    <state x="544" y="89" key="EnvironmentVariablesDialog" timestamp="1598354242457">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598353364510" />
+    <state x="544" y="89" key="EnvironmentVariablesDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354242457" />
+    <state width="1179" height="176" key="GridCell.Tab.0.bottom" timestamp="1598354839392">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1179" height="176" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598354839392" />
+    <state width="1179" height="176" key="GridCell.Tab.0.center" timestamp="1598354839392">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1179" height="176" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598354839392" />
+    <state width="1179" height="176" key="GridCell.Tab.0.left" timestamp="1598354839391">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1179" height="176" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598354839391" />
+    <state width="1179" height="176" key="GridCell.Tab.0.right" timestamp="1598354839392">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1179" height="176" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598354839392" />
+    <state x="176" y="27" key="SettingsEditor" timestamp="1598353646524">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="176" y="27" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1598353646524" />
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598353579846">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598353579846" />
     <state x="480" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598353437674">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
