@@ -5,23 +5,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="fix: 关闭定时任务" />
+    <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="fix: 关闭定时任务">
+      <change afterPath="$PROJECT_DIR$/models/enterstudio.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="$USER_HOME$/sdk/go1.15" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gaWGPhSYHW6zhbwqz9AGeUADzx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,7 +54,7 @@
       <module name="go-admin" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
-      <parameters value="server -c config/settings.yml -p 8000 -m dev" />
+      <parameters value="server -c config/settings.yml -p 8080 -m dev" />
       <EXTENSION ID="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -93,44 +108,44 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="342" y="187" key="#Log_Highlighting_(ideolog)/0.23.1280.741@0.23.1280.741" timestamp="1598354189066" />
-    <state x="107" y="0" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598355478142">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598358661647">
+      <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="107" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1598355478142" />
-    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1598355219591" />
+    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1598358661647" />
     <state x="544" y="89" key="EnvironmentVariablesDialog" timestamp="1598354242457">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="544" y="89" key="EnvironmentVariablesDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354242457" />
-    <state width="1179" height="175" key="GridCell.Tab.0.bottom" timestamp="1598356003442">
+    <state width="1179" height="294" key="GridCell.Tab.0.bottom" timestamp="1598359170984">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598355766498" />
-    <state width="1179" height="175" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598356003442" />
-    <state width="1179" height="175" key="GridCell.Tab.0.center" timestamp="1598356003441">
+    <state width="1179" height="294" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598359170984" />
+    <state width="1179" height="294" key="GridCell.Tab.0.center" timestamp="1598359170980">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598355766496" />
-    <state width="1179" height="175" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598356003441" />
-    <state width="1179" height="175" key="GridCell.Tab.0.left" timestamp="1598356003440">
+    <state width="1179" height="294" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598359170980" />
+    <state width="1179" height="294" key="GridCell.Tab.0.left" timestamp="1598359170978">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598355766495" />
-    <state width="1179" height="175" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598356003440" />
-    <state width="1179" height="175" key="GridCell.Tab.0.right" timestamp="1598356003441">
+    <state width="1179" height="294" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598359170978" />
+    <state width="1179" height="294" key="GridCell.Tab.0.right" timestamp="1598359170982">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598355766496" />
-    <state width="1179" height="175" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598356003441" />
+    <state width="1179" height="294" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598359170982" />
     <state x="176" y="27" key="SettingsEditor" timestamp="1598353646524">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="176" y="27" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1598353646524" />
-    <state x="231" y="120" key="Vcs.Push.Dialog.v2" timestamp="1598355793235">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598356271648">
+      <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="231" y="120" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598355793235" />
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598355075951" />
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598356271648" />
     <state x="480" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598353437674">
       <screen x="0" y="23" width="1280" height="741" />
     </state>

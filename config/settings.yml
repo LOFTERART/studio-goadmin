@@ -7,7 +7,7 @@ settings:
     # 服务名称
     name: testApp
     # 端口号
-    port: 8000 # 服务端口号
+    port: 8080 # 服务端口号
     readtimeout: 1
     writertimeout: 2
     # 数据权限功能开关
@@ -22,9 +22,9 @@ settings:
     # 业务日志开关
     enabledbus: false
     # 请求日志开关
-    enabledreq: false
+    enabledreq: true
     # 数据库日志开关 dev模式，将自动开启
-    enableddb: false
+    enableddb: true
     # 自动任务日志开关 dev模式，将自动开启
     enabledjob: false
   jwt:
@@ -39,6 +39,6 @@ settings:
     source: root:loveys1314@tcp(127.0.0.1:3306)/enter_studio?charset=utf8mb4&parseTime=True&loc=Local&timeout=1000ms
   gen:
     # 代码生成读取的数据库名称
-    dbname: dbname
+    dbname: enter_studio
     # 代码生成是使用前端代码存放位置，需要指定到src文件夹，相对路径
     frontpath: ../go-admin-ui/src
