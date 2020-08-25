@@ -24,6 +24,7 @@ const (
 // @Success 200 {object} app.Response "{"code": 200, "data": [...]}"
 // @Router /api/v1/settings/serverInfo [get]
 func ServerInfo(c *gin.Context) {
+	fmt.Println(tools.GetUserId(c), "--------id------")
 
 	osDic := make(map[string]interface{}, 0)
 	osDic["goOs"] = runtime.GOOS

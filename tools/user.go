@@ -17,6 +17,7 @@ func ExtractClaims(c *gin.Context) jwt.MapClaims {
 
 func GetUserId(c *gin.Context) int {
 	data := ExtractClaims(c)
+	fmt.Println(data, "-------data-----")
 	if data["identity"] != nil {
 		return int((data["identity"]).(float64))
 	}

@@ -1,6 +1,7 @@
 package dict
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"go-admin/models"
@@ -21,6 +22,7 @@ import (
 // @Router /api/v1/dict/data/list [get]
 // @Security Bearer
 func GetDictDataList(c *gin.Context) {
+	fmt.Println(tools.GetUserId(c), "------------a-------")
 	var data models.DictData
 	var err error
 	var pageSize = 10

@@ -1,6 +1,7 @@
 package system
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"go-admin/models"
@@ -19,6 +20,7 @@ import (
 // @Router /api/v1/deptList [get]
 // @Security Bearer
 func GetDeptList(c *gin.Context) {
+	fmt.Println(tools.GetUserId(c), "-----------123-------")
 	var Dept models.SysDept
 	Dept.DeptName = c.Request.FormValue("deptName")
 	Dept.Status = c.Request.FormValue("status")
@@ -48,6 +50,7 @@ func GetDeptTree(c *gin.Context) {
 // @Router /api/v1/dept/{deptId} [get]
 // @Security Bearer
 func GetDept(c *gin.Context) {
+	fmt.Println(tools.GetUserId(c), "------------a-------")
 	var Dept models.SysDept
 	Dept.DeptId, _ = tools.StringToInt(c.Param("deptId"))
 	Dept.DataScope = tools.GetUserIdStr(c)
