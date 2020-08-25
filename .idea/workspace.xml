@@ -6,12 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="fix: init">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cobra.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/cobra.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <module name="go-admin" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
-      <parameters value="server -c config/settings.yml -p 8000 -m dev" />
+      <parameters value="server -c config/settings.yml -p 8000 -m test" />
       <EXTENSION ID="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -99,41 +96,49 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="342" y="187" key="#Log_Highlighting_(ideolog)/0.23.1280.741@0.23.1280.741" timestamp="1598354189066" />
-    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598354871943">
+    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598355219591">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354871943" />
+    <state x="107" y="23" width="1071" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1598355219591" />
     <state x="544" y="89" key="EnvironmentVariablesDialog" timestamp="1598354242457">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="544" y="89" key="EnvironmentVariablesDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354242457" />
-    <state width="1179" height="176" key="GridCell.Tab.0.bottom" timestamp="1598354906771">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1598355411473">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598354906771" />
-    <state width="1179" height="176" key="GridCell.Tab.0.center" timestamp="1598354906770">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598355411473" />
+    <state width="1179" height="176" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598355222919" />
+    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1598355411472">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598354906770" />
-    <state width="1179" height="176" key="GridCell.Tab.0.left" timestamp="1598354906769">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598355411472" />
+    <state width="1179" height="176" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598355222918" />
+    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1598355411471">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598354906769" />
-    <state width="1179" height="176" key="GridCell.Tab.0.right" timestamp="1598354906770">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598355411471" />
+    <state width="1179" height="176" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598355222918" />
+    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1598355411473">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1179" height="176" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598354906770" />
+    <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598355411473" />
+    <state width="1179" height="176" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598355222919" />
     <state x="176" y="27" key="SettingsEditor" timestamp="1598353646524">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="176" y="27" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1598353646524" />
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598354929576">
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2" timestamp="1598355075951">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598354929576" />
+    <state x="231" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1598355075951" />
     <state x="480" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598353437674">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="480" y="305" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.741@0.23.1280.741" timestamp="1598353437674" />
+    <state x="380" y="134" width="513" height="508" key="find.popup" timestamp="1598355211422">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="380" y="134" width="513" height="508" key="find.popup/0.23.1280.741@0.23.1280.741" timestamp="1598355211422" />
   </component>
 </project>
