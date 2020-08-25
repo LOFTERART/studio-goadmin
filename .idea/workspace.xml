@@ -5,7 +5,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="fix: 关闭定时任务" />
+    <list default="true" id="a28a9628-0e7d-4912-8377-5bdf59e23d92" name="默认的" comment="fix: 关闭定时任务">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apis/system/dept.go" beforeDir="false" afterPath="$PROJECT_DIR$/apis/system/dept.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dept.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/dept.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +52,16 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-admin" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="go-admin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -64,6 +80,17 @@
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
   </component>
@@ -113,26 +140,30 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="544" y="89" key="EnvironmentVariablesDialog/0.23.1280.741@0.23.1280.741" timestamp="1598354242457" />
-    <state width="1179" height="294" key="GridCell.Tab.0.bottom" timestamp="1598359765914">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="297" key="GridCell.Tab.0.bottom" timestamp="1598367494762">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598355766498" />
+    <state width="1238" height="297" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598367494762" />
     <state width="1179" height="294" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1598359765914" />
-    <state width="1179" height="294" key="GridCell.Tab.0.center" timestamp="1598359765913">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="297" key="GridCell.Tab.0.center" timestamp="1598367494760">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598355766496" />
+    <state width="1238" height="297" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598367494760" />
     <state width="1179" height="294" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1598359765913" />
-    <state width="1179" height="294" key="GridCell.Tab.0.left" timestamp="1598359765913">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="297" key="GridCell.Tab.0.left" timestamp="1598367494760">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598355766495" />
+    <state width="1238" height="297" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598367494760" />
     <state width="1179" height="294" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1598359765913" />
-    <state width="1179" height="294" key="GridCell.Tab.0.right" timestamp="1598359765913">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="1238" height="297" key="GridCell.Tab.0.right" timestamp="1598367494761">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="205" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598355766496" />
+    <state width="1238" height="297" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598367494761" />
     <state width="1179" height="294" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1598359765913" />
+    <state x="431" y="26" key="RollbackChangesDialog" timestamp="1598360753307">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="431" y="26" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598360753307" />
     <state x="176" y="27" key="SettingsEditor" timestamp="1598353646524">
       <screen x="0" y="23" width="1280" height="741" />
     </state>

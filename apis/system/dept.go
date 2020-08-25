@@ -26,7 +26,7 @@ func GetDeptList(c *gin.Context) {
 	Dept.DataScope = tools.GetUserIdStr(c)
 	result, err := Dept.SetDept(true)
 	tools.HasError(err, "抱歉未找到相关信息", -1)
-	app.OK(c, result, "")
+	app.OK(c, result, "11")
 }
 
 func GetDeptTree(c *gin.Context) {

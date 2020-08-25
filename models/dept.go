@@ -2,6 +2,7 @@ package models
 
 import (
 	"errors"
+	"fmt"
 	orm "go-admin/global"
 	"go-admin/tools"
 	_ "time"
@@ -44,9 +45,11 @@ func (e *SysDept) Create() (SysDept, error) {
 	}
 	deptPath := "/" + tools.IntToString(e.DeptId)
 	if int(e.ParentId) != 0 {
+		fmt.Println(e, "---------eeeeee")
 		var deptP SysDept
 		orm.Eloquent.Table(e.TableName()).Where("dept_id = ?", e.ParentId).First(&deptP)
 		deptPath = deptP.DeptPath + deptPath
+		fmt.Println(deptPath, "-----")
 	} else {
 		deptPath = "/0" + deptPath
 	}
@@ -134,9 +137,16 @@ func (e *SysDept) GetPage(bl bool) ([]SysDept, error) {
 func (e *SysDept) SetDept(bl bool) ([]SysDept, error) {
 	list, err := e.GetPage(bl)
 
+	fmt.Println(list, "------child")
+
+	for i, v := range list {
+		fmt.Println(i, v, v.Children)
+	}
+
 	m := make([]SysDept, 0)
 	for i := 0; i < len(list); i++ {
 		if list[i].ParentId != 0 {
+
 			continue
 		}
 		info := Digui(&list, list[i])
@@ -151,10 +161,11 @@ func Digui(deptlist *[]SysDept, menu SysDept) SysDept {
 
 	min := make([]SysDept, 0)
 	for j := 0; j < len(list); j++ {
-
 		if menu.DeptId != list[j].ParentId {
+			fmt.Println(j, menu.DeptId, list[j].ParentId, "------------000000")
 			continue
 		}
+		fmt.Println(j, menu.DeptId, list[j].ParentId, "------------111111111")
 		mi := SysDept{}
 		mi.DeptId = list[j].DeptId
 		mi.ParentId = list[j].ParentId
